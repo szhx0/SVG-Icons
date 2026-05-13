@@ -1,8 +1,23 @@
 
     <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        
-      </defs>
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#f2f2f2"/>
+      <stop offset="25%"  stop-color="#cccccc"/>
+      <stop offset="50%"  stop-color="#a5a5a5"/>
+      <stop offset="75%"  stop-color="#7f7f7f"/>
+      <stop offset="100%" stop-color="#595959"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      #iconGrad stop:nth-child(1) { stop-color: #595959; }
+      #iconGrad stop:nth-child(2) { stop-color: #7f7f7f; }
+      #iconGrad stop:nth-child(3) { stop-color: #a5a5a5; }
+      #iconGrad stop:nth-child(4) { stop-color: #cccccc; }
+      #iconGrad stop:nth-child(5) { stop-color: #f2f2f2; }
+    }
+  </style>
       <style>
         
         .svg-container { transform-origin: center center; }
@@ -11,7 +26,7 @@
         
         <g transform="translate(0, 2.4000000000000004) scale(0.0375)">
           <g>
-            <path d="M128 32C92.7 32 64 60.7 64 96l0 240 64 0 0-240 384 0 0 240 64 0 0-240c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2 0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8 0-10.6-8.6-19.2-19.2-19.2L19.2 384z" fill="currentColor" />
+            <path d="M128 32C92.7 32 64 60.7 64 96l0 240 64 0 0-240 384 0 0 240 64 0 0-240c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2 0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8 0-10.6-8.6-19.2-19.2-19.2L19.2 384z" fill="url(#iconGrad)" />
           </g>
         </g>
         
